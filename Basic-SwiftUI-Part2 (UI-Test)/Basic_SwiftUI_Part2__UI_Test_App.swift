@@ -13,7 +13,7 @@ struct Basic_SwiftUI_Part2__UI_Test_App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SwiftCalView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

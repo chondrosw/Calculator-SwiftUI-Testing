@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4D49A6B527E06DE100E36FDC /* Basic_SwiftUI_Part2__UI_Test_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6B427E06DE100E36FDC /* Basic_SwiftUI_Part2__UI_Test_App.swift */; };
-		4D49A6B727E06DE100E36FDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6B627E06DE100E36FDC /* ContentView.swift */; };
 		4D49A6B927E06DE300E36FDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D49A6B827E06DE300E36FDC /* Assets.xcassets */; };
 		4D49A6BC27E06DE300E36FDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D49A6BB27E06DE300E36FDC /* Preview Assets.xcassets */; };
 		4D49A6BE27E06DE300E36FDC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6BD27E06DE300E36FDC /* Persistence.swift */; };
@@ -16,6 +15,13 @@
 		4D49A6CB27E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6CA27E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_Tests.swift */; };
 		4D49A6D527E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6D427E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_UITests.swift */; };
 		4D49A6D727E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6D627E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_UITestsLaunchTests.swift */; };
+		4D49A6EA27E06EA600E36FDC /* CalcButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6E927E06EA600E36FDC /* CalcButtonStyle.swift */; };
+		4D49A6EC27E06ED600E36FDC /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6EB27E06ED600E36FDC /* View.swift */; };
+		4D49A6EE27E06FA500E36FDC /* SwiftCalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6ED27E06FA500E36FDC /* SwiftCalView.swift */; };
+		4D49A6F127E0793900E36FDC /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6F027E0793900E36FDC /* CalculateViewModel.swift */; };
+		4D49A6F327E07BEC00E36FDC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6F227E07BEC00E36FDC /* Color.swift */; };
+		4D49A6F527E07C2F00E36FDC /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6F427E07C2F00E36FDC /* DisplayView.swift */; };
+		4D49A6F727E07EB400E36FDC /* MemoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49A6F627E07EB400E36FDC /* MemoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 /* Begin PBXFileReference section */
 		4D49A6B127E06DE100E36FDC /* Basic-SwiftUI-Part2 (UI-Test).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basic-SwiftUI-Part2 (UI-Test).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D49A6B427E06DE100E36FDC /* Basic_SwiftUI_Part2__UI_Test_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_SwiftUI_Part2__UI_Test_App.swift; sourceTree = "<group>"; };
-		4D49A6B627E06DE100E36FDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4D49A6B827E06DE300E36FDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D49A6BB27E06DE300E36FDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4D49A6BD27E06DE300E36FDC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +53,13 @@
 		4D49A6D027E06DE300E36FDC /* Basic-SwiftUI-Part2 (UI-Test)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Basic-SwiftUI-Part2 (UI-Test)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D49A6D427E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_SwiftUI_Part2__UI_Test_UITests.swift; sourceTree = "<group>"; };
 		4D49A6D627E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basic_SwiftUI_Part2__UI_Test_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4D49A6E927E06EA600E36FDC /* CalcButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcButtonStyle.swift; sourceTree = "<group>"; };
+		4D49A6EB27E06ED600E36FDC /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		4D49A6ED27E06FA500E36FDC /* SwiftCalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftCalView.swift; sourceTree = "<group>"; };
+		4D49A6F027E0793900E36FDC /* CalculateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewModel.swift; sourceTree = "<group>"; };
+		4D49A6F227E07BEC00E36FDC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4D49A6F427E07C2F00E36FDC /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		4D49A6F627E07EB400E36FDC /* MemoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +110,11 @@
 		4D49A6B327E06DE100E36FDC /* Basic-SwiftUI-Part2 (UI-Test) */ = {
 			isa = PBXGroup;
 			children = (
+				4D49A6EF27E0792700E36FDC /* ViewModel */,
+				4D49A6E527E06E0C00E36FDC /* Utils */,
+				4D49A6E427E06E0800E36FDC /* Model */,
+				4D49A6E327E06E0300E36FDC /* View */,
 				4D49A6B427E06DE100E36FDC /* Basic_SwiftUI_Part2__UI_Test_App.swift */,
-				4D49A6B627E06DE100E36FDC /* ContentView.swift */,
 				4D49A6B827E06DE300E36FDC /* Assets.xcassets */,
 				4D49A6BD27E06DE300E36FDC /* Persistence.swift */,
 				4D49A6BF27E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_.xcdatamodeld */,
@@ -131,6 +146,65 @@
 				4D49A6D627E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_UITestsLaunchTests.swift */,
 			);
 			path = "Basic-SwiftUI-Part2 (UI-Test)UITests";
+			sourceTree = "<group>";
+		};
+		4D49A6E327E06E0300E36FDC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6E827E06E7E00E36FDC /* Component */,
+				4D49A6E727E06E7A00E36FDC /* Page */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4D49A6E427E06E0800E36FDC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D49A6E527E06E0C00E36FDC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6E627E06E1B00E36FDC /* Extension */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4D49A6E627E06E1B00E36FDC /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6EB27E06ED600E36FDC /* View.swift */,
+				4D49A6F227E07BEC00E36FDC /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4D49A6E727E06E7A00E36FDC /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6ED27E06FA500E36FDC /* SwiftCalView.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		4D49A6E827E06E7E00E36FDC /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6E927E06EA600E36FDC /* CalcButtonStyle.swift */,
+				4D49A6F427E07C2F00E36FDC /* DisplayView.swift */,
+				4D49A6F627E07EB400E36FDC /* MemoryView.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		4D49A6EF27E0792700E36FDC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4D49A6F027E0793900E36FDC /* CalculateViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,9 +337,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D49A6F527E07C2F00E36FDC /* DisplayView.swift in Sources */,
 				4D49A6C127E06DE300E36FDC /* Basic_SwiftUI_Part2__UI_Test_.xcdatamodeld in Sources */,
+				4D49A6EE27E06FA500E36FDC /* SwiftCalView.swift in Sources */,
+				4D49A6F127E0793900E36FDC /* CalculateViewModel.swift in Sources */,
 				4D49A6BE27E06DE300E36FDC /* Persistence.swift in Sources */,
-				4D49A6B727E06DE100E36FDC /* ContentView.swift in Sources */,
+				4D49A6EC27E06ED600E36FDC /* View.swift in Sources */,
+				4D49A6F327E07BEC00E36FDC /* Color.swift in Sources */,
+				4D49A6F727E07EB400E36FDC /* MemoryView.swift in Sources */,
+				4D49A6EA27E06EA600E36FDC /* CalcButtonStyle.swift in Sources */,
 				4D49A6B527E06DE100E36FDC /* Basic_SwiftUI_Part2__UI_Test_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

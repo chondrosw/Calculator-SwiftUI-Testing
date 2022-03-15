@@ -21,7 +21,55 @@ class Basic_SwiftUI_Part2__UI_Test_UITests: XCTestCase {
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
+    
+    func testPressMemoryPlusAtAppStartShowZeroInDisplay()throws{
+        let app = XCUIApplication()
+        app.launch()
+        let memoryButton = app.buttons["M+"]
+        memoryButton.tap()
+        let display = app.staticTexts["display"]
+        let displayText = display.label
+        XCTAssert(displayText == "0")
+    }
+    
+    func testAddingTwoDigits(){
+        let app = XCUIApplication()
+        app.launch()
+        
+        let threeButton = app.buttons["3"]
+        threeButton.tap()
+        
+        let addButton = app.buttons["+"]
+        addButton.tap()
+        
+        let fiveButton = app.buttons["5"]
+        fiveButton.tap()
+        
+        let equalButton = app.buttons["="]
+        equalButton.tap()
+        
+        let display = app.staticTexts["display"]
+        let displayText = display.label
+        XCTAssertEqual(displayText, "8.0")
+    }
+    
+    func testSwipeToClearMemory(){
+        let app = XCUIApplication()
+        app.launch()
+        
+        let threeButton = app.buttons["3"]
+        threeButton.tap()
+        let fiveButton = app.buttons["5"]
+        fiveButton.tap()
+        
+        let memoryButton = app.buttons["M+"]
+        memoryButton.tap()
+        
+        let memoryDisplays = app.staticTexts["memoryDisplay"]
+        XCTAssert(memoryDisplays.exists)
+        memoryDisplays.swipeLeft()
+        XCTAssertFalse(memoryDisplays.exists)
+    }
     func testExample() throws {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
